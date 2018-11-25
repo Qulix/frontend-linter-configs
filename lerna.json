@@ -1,0 +1,36 @@
+{
+  "lerna": "3.4.3",
+  "version": "independent",
+  "npmClient": "npm",
+  "npmClientArgs": [
+    "--no-lockfile"
+  ],
+  "command": {
+    "run": {
+      "npmClient": "npm"
+    },
+    "version": {
+      "conventionalCommits": true,
+      "noGitTagVersion": true,
+      "yes": true,
+      "allowBranch": ["master"]
+    },
+    "publish": {
+      "message": "Created new package version",
+      "allowBranch": ["master"],
+      "fromGit": true,
+      "canary": true,
+      "yes": true,
+      "ignoreChanges": [
+        "*.npmrc",
+        "*.yml",
+        "*.json",
+        "**/*.test.js",
+        "package.json"
+      ]
+    }
+  },
+  "packages": [
+    "packages/*"
+  ]
+}
