@@ -2,6 +2,8 @@
 
 Elegant linter configuration for better frontend development
 
+> StyleGuide is still in an early development stage and not ready for production :smile:
+
 [![Build Status](https://travis-ci.org/R1ZEN/linter-configs-qulix.svg?branch=master)]()
 
 # Style Guides
