@@ -1,0 +1,38 @@
+{
+  "name": "@qulix/tslint-config-typescript",
+  "version": "0.0.0",
+  "description": "TypeScript Style Guide",
+  "engines": {
+    "node": ">=6.4.0 <=11",
+    "npm": ">=4"
+  },
+  "main": "index.js",
+  "keywords": [
+    "style guide",
+    "lint",
+    "tslint",
+    "typescript"
+  ],
+  "author": "Pavel Bely <PBely@qulix.com> (https://twitter.com/R1ZENX)",
+  "contributors": [
+    {
+      "name": "Pavel Bely",
+      "url": "https://twitter.com/R1ZENX"
+    }
+  ],
+  "homepage": "https://github.com/qulix/frontend-linter-configs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qulix/frontend-linter-configs"
+  },
+  "bugs": {
+    "url": "https://github.com/qulix/frontend-linter-configs/issues"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "dotenv": "^6.2.0"
+  }
+}
