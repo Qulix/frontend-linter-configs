@@ -1,0 +1,3 @@
+# tslint-config-angular
+
+
