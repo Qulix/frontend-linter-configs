@@ -1,10 +1,11 @@
+[![Build Status](https://travis-ci.org/Qulix/frontend-linter-configs.svg?branch=master)](https://travis-ci.org/Qulix/frontend-linter-configs)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
+
 # Qulix JavaScript StyleGuide
 
 Elegant linter configuration for better frontend development
 
 > StyleGuide is still in an early development stage and not ready for production :smile:
-
-[![Build Status](https://travis-ci.org/Qulix/frontend-linter-configs.svg?branch=master)]()
 
 # Style Guides
 
