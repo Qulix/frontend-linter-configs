@@ -1,4 +1,5 @@
 require('dotenv').config();
+
 const {
   RULE_FORMAT_SPECIFIC = 'enable',
   RULE_TYPESCRIPT_SPECIFIC = 'enable',

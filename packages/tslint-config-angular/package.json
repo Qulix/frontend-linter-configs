@@ -1,16 +1,16 @@
 {
   "name": "@qulix/tslint-config-angular",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "TypeScript Angular Style Guide",
-  "readme": "README.md",
   "engines": {
     "node": ">=6.4.0 <=11",
     "npm": ">=4"
   },
-  "main": "index.js",
+  "main": "tslint.js",
   "files": [
     "./index.js",
-    "./rules"
+    "./rules",
+    "./README.md"
   ],
   "keywords": [
     "style guide",
@@ -38,7 +38,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "peerDependencies": {
+  "dependencies": {
     "dotenv": "^6.2.0"
   }
 }

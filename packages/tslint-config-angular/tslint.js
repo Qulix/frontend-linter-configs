@@ -1,4 +1,5 @@
 require('dotenv').config();
+
 const {
   RULE_SYNTAX = 'enable',
   RULE_COMPONENT = 'enable',
