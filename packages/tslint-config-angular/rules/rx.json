@@ -1,6 +1,8 @@
 {
-  "import-blacklist": [
-    true,
-    "rxjs/Rx"
-  ]
+  "rules": {
+    "import-blacklist": [
+      true,
+      "rxjs/Rx"
+    ]
+  }
 }

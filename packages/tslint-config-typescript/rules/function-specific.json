@@ -1,6 +1,8 @@
 {
-  "promise-function-async": false,
-  "only-arrow-functions": false,
-  "arrow-return-shorthand": true,
-  "callable-types": true
+  "rules": {
+    "promise-function-async": false,
+    "only-arrow-functions": false,
+    "arrow-return-shorthand": true,
+    "callable-types": true
+  }
 }

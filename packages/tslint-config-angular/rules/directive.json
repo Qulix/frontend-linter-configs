@@ -1,8 +1,10 @@
 {
-  "directive-selector": [
-    true,
-    "attribute",
-    ["app"],
-    "camelCase"
-  ]
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      ["app"],
+      "camelCase"
+    ]
+  }
 }

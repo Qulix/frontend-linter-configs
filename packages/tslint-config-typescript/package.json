@@ -1,6 +1,6 @@
 {
   "name": "@qulix/tslint-config-typescript",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "description": "TypeScript Style Guide",
   "engines": {
     "node": ">=6.4.0 <=11",
@@ -8,9 +8,8 @@
   },
   "main": "tslint.js",
   "files": [
-    "./index.js",
-    "./rules",
-    "./README.md"
+    "rules",
+    "README.md"
   ],
   "keywords": [
     "style guide",
