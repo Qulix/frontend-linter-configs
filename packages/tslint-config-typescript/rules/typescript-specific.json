@@ -1,0 +1,28 @@
+{
+  "adjacent-overload-signatures": true,
+  "ban-types": [
+    true,
+    ["Object", "Avoid using the `Object` as a type. Use `object` instead"],
+    ["Function", "Avoid using the `Function` as a type. Use a specific function type, like `() => void`"],
+    ["Boolean", "Avoid using the `Boolean` as a type. Use `boolean` instead"],
+    ["Number", "Avoid using the `Number` as a type. Use `number` instead"],
+    ["String", "Avoid using the `String` as a type. Use `string` instead"],
+    ["Symbol", "Avoid using the `Symbol` as a type. Use `symbol` instead"]
+  ],
+  "no-any": false,
+  "no-import-side-effect": false,
+  "no-inferrable-types": false,
+  "no-internal-module": true,
+  "no-namespace": true,
+  "no-non-null-assertion": false,
+  "no-parameter-reassignment": true,
+  "no-reference": true,
+  "no-unnecessary-type-assertion": true,
+  "no-angle-bracket-type-assertion": true,
+  "no-var-requires": true,
+  "prefer-for-of": true,
+  "deprecation": {
+    "severity": "warn"
+  },
+  "label-position": false
+}

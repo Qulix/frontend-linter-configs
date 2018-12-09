@@ -1,0 +1,23 @@
+{
+  "class-name": true,
+  "member-access": true,
+  "member-ordering": [
+    true,
+    {
+      "order": [
+        "public-static-field",
+        "private-static-field",
+        "public-instance-field",
+        "private-instance-field",
+        "private-constructor",
+        "public-constructor",
+        "protected-instance-method",
+        "private-instance-method",
+        "public-instance-method"
+      ]
+    }
+  ],
+  "no-empty-interface": false,
+  "interface-over-type-literal": false,
+  "no-misused-new": true
+}
