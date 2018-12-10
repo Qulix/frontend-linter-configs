@@ -1,6 +1,6 @@
 {
   "name": "@qulix/tslint-config-angular",
-  "version": "0.0.0",
+  "version": "0.1.7",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {

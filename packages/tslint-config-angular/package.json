@@ -1,6 +1,6 @@
 {
   "name": "@qulix/tslint-config-angular",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "TypeScript Angular Style Guide",
   "engines": {
     "node": ">=6.4.0 <=11",
