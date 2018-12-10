@@ -1,6 +1,6 @@
 {
   "name": "@qulix/tslint-config-typescript",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "TypeScript Style Guide",
   "engines": {
     "node": ">=6.4.0 <=11",
