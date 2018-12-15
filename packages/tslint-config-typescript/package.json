@@ -2,6 +2,9 @@
   "name": "@qulix/tslint-config-typescript",
   "version": "0.1.6",
   "description": "TypeScript Style Guide",
+  "scripts": {
+    "test": "node ./tslint.js"
+  },
   "engines": {
     "node": ">=6.4.0 <=11",
     "npm": ">=4"

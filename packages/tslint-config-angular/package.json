@@ -2,6 +2,9 @@
   "name": "@qulix/tslint-config-angular",
   "version": "0.1.7",
   "description": "TypeScript Angular Style Guide",
+  "scripts": {
+    "test": "node ./tslint.js"
+  },
   "engines": {
     "node": ">=6.4.0 <=11",
     "npm": ">=4"
@@ -36,5 +39,8 @@
   "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "codelyzer": "^4.5.0"
   }
 }
