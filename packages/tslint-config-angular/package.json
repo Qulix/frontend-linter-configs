@@ -36,8 +36,5 @@
   "license": "MIT",
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "dotenv": "^6.2.0"
   }
 }

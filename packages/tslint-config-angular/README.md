@@ -34,23 +34,23 @@ Once the `tslint-config-angular` package is installed, you can use it by specify
 
 ## Migration
 
-During migration, you can disable modules with a set of rules in order to make configuration in your project incrementally.
+During migration, you can disable rulesets by overriding them in yours `.tslint` configuration file
 
-You can use a global environment variable or define variables in a `.env` file:
+> The rule set is stored in `node_modules/@qulix/tslint-config-angular/rules`
 
-```sh
-# .env
-RULE_DIRECTIVE="disable"
-RULE_RX="disable"
-```
-
-Full set of modules with rules:
-
-```sh
-RULE_SYNTAX="enable"
-RULE_COMPONENT="enable"
-RULE_DIRECTIVE="enable"
-RULE_RX="enable"
+```js
+  "extends": [
+    "@qulix/tslint-config-angular"
+  ],
+  "rules": {
+    // components
+    "component-selector": [
+      true,
+      "element",
+      ["foo"],
+      "kebab-case"
+    ]
+  }
 ```
 
 ## License

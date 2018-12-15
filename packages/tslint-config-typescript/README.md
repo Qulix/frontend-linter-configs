@@ -33,24 +33,21 @@ Once the `tslint-config-typescript` package is installed, you can use it by spec
 
 ## Migration
 
-During migration, you can disable modules with a set of rules in order to make configuration in your project incrementally.
+During migration, you can disable rulesets by overriding them in yours `.tslint` configuration file
 
-You can use a global environment variable or define variables in a `.env` file:
+> The rule set is stored in `node_modules/@qulix/tslint-config-typescript/rules`
 
-```sh
-# .env
-RULE_JAVASCRIPT_SPECIFIC="disable"
-RULE_FUNCTION_SPECIFIC="disable"
-```
-
-Full set of modules with rules:
-
-```sh
-RULE_FORMAT_SPECIFIC="enable"
-RULE_TYPESCRIPT_SPECIFIC="enable"
-RULE_JAVASCRIPT_SPECIFIC="enable"
-RULE_CLASS_SPECIFIC="enable"
-RULE_FUNCTION_SPECIFIC="enable"
+```js
+  "extends": [
+    "@qulix/tslint-config-typescript"
+  ],
+  "rules": {
+    // format-specific
+    "quotemark": false,
+    // class-specific
+    "class-name": false,
+    "member-access": false,
+  }
 ```
 
 ## License

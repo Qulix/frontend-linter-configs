@@ -1,13 +1,5 @@
 {
   "name": "@qulix/tslint-config-typescript",
-  "version": "0.1.5",
-  "lockfileVersion": 1,
-  "requires": true,
-  "dependencies": {
-    "dotenv": {
-      "version": "6.2.0",
-      "resolved": "https://registry.npmjs.org/dotenv/-/dotenv-6.2.0.tgz",
-      "integrity": "sha512-HygQCKUBSFl8wKQZBSemMywRWcEDNidvNbjGVyZu3nbZ8qq9ubiPoGLMdRDpfSrpkkm9BXYFkpKxxFX38o/76w=="
-    }
-  }
+  "version": "0.1.6",
+  "lockfileVersion": 1
 }
