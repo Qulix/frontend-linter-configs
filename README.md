@@ -23,10 +23,6 @@ Elegant linter configuration for better frontend development
 
 # FAQ
 
-### Is there a way to migrate a project to your style guide?
-
-Yep. For each package we use the environment variable `LINTER_MIGRATE` which translates all errors into warnings. To enable migration, you must set `LINTER_MIGRATE=true`. This is a convenient way to fix most linter problems in a project.
-
 ### What versions of Node.js do you support?
 
 We support versions of Node.js from __6.4.0__ and ending with the __latest__ version.
