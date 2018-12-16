@@ -1,6 +1,6 @@
 {
   "name": "@qulix/tslint-config-rx",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "TypeScript Rx.js Style Guide",
   "scripts": {
     "test": "node ./tslint.js"

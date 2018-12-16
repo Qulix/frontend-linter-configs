@@ -1,6 +1,6 @@
 {
   "name": "@qulix/eslint-config-javascript",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "JavaScript Style Guide",
   "readme": "README.md",
   "engines": {
