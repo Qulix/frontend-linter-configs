@@ -1,8 +1,10 @@
 # tslint-config-rx
 
 
-> TSLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the [Qulix Angular Style Guide](./STYLEGUIDE.md)
+> TSLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the [Qulix Rx Style Guide](./STYLEGUIDE.md)
 
+**This is an independent package but we recommend using it with:**
+  - [@qulix/tslint-config-typescript](https://www.npmjs.com/package/@qulix/tslint-config-typescript)
 
 ## Installation
 
