@@ -2,9 +2,12 @@
 module.exports = {
   exports: [
     'codelyzer',
-    './rules/syntax.json',
-    './rules/component.json',
-    './rules/directive.json',
-    './rules/rx.json',
+    './rules/common.js',
+    './rules/component.js',
+    './rules/decorator.js'
+    './rules/directive.js',
+    './rules/pipe.js',
+    './rules/rx.js',
+    './rules/template.js',
   ].map(require.resolve),
 }
