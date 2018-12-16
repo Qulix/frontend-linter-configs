@@ -1,0 +1,45 @@
+{
+  "name": "@qulix/tslint-config-react",
+  "version": "0.0.0",
+  "description": "TypeScript React Style Guide",
+  "scripts": {
+    "test": "node ./tslint.js"
+  },
+  "engines": {
+    "node": ">=6.4.0 <=11",
+    "npm": ">=4"
+  },
+  "main": "tslint.js",
+  "files": [
+    "README.md"
+  ],
+  "keywords": [
+    "style guide",
+    "lint",
+    "tslint",
+    "typescript",
+    "rx"
+  ],
+  "author": "Pavel Bely <PBely@qulix.com> (https://twitter.com/R1ZENX)",
+  "contributors": [
+    {
+      "name": "Pavel Bely",
+      "url": "https://twitter.com/R1ZENX"
+    }
+  ],
+  "homepage": "https://github.com/qulix/frontend-linter-configs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qulix/frontend-linter-configs"
+  },
+  "bugs": {
+    "url": "https://github.com/qulix/frontend-linter-configs/issues"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "rxjs-tslint-rules": "^4.14.0"
+  }
+}
