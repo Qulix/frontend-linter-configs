@@ -1,7 +1,6 @@
 
 module.exports = {
   extends: [
-    "codelyzer",
     './rules/format-specific.json',
     './rules/typescript-specific.json',
     './rules/javascript-specific.json',
