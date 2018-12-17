@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "TypeScript Style Guide",
   "scripts": {
-    "test": "node ./tslint.js"
+    "test": "tslint --config ./tslint.js ./tests/**/*.ts"
   },
   "engines": {
     "node": ">=6.4.0 <=11",
@@ -38,5 +38,9 @@
   "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "tslint": "latest",
+    "typescript": "latest"
   }
 }

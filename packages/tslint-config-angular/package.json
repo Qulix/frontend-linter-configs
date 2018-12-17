@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "TypeScript Angular Style Guide",
   "scripts": {
-    "test": "node ./tslint.js"
+    "test": "tslint --config ./tslint.js ./tests/**/*.ts"
   },
   "engines": {
     "node": ">=6.4.0 <=11",
@@ -42,5 +42,9 @@
   },
   "dependencies": {
     "codelyzer": "^4.5.0"
+  },
+  "devDependencies": {
+    "tslint": "latest",
+    "typescript": "latest"
   }
 }

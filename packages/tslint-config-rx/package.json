@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "TypeScript Rx.js Style Guide",
   "scripts": {
-    "test": "node ./tslint.js"
+    "test": "tslint --config ./tslint.js ./tests/**/*.ts"
   },
   "engines": {
     "node": ">=6.4.0 <=11",
@@ -41,5 +41,9 @@
   },
   "dependencies": {
     "rxjs-tslint-rules": "^4.14.0"
+  },
+  "devDependencies": {
+    "tslint": "latest",
+    "typescript": "latest"
   }
 }
