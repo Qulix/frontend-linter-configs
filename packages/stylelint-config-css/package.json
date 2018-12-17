@@ -11,6 +11,7 @@
   },
   "main": "stylelint.config.js",
   "files": [
+    "rules",
     "README.md"
   ],
   "keywords": [
