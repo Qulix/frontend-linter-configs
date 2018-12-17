@@ -1,0 +1,15 @@
+/*
+  Please don't use invalid hex
+*/
+.color-no-invalid-hex {
+  color: #112233;
+}
+
+/*
+  For color use hex definition
+  also use color name for color variable
+  to define symantical color name
+*/
+.color-named {
+  color: #121212;
+}
