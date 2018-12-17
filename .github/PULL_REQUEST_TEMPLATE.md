@@ -9,10 +9,9 @@ Refer to CONTRIBUTING.md for more details.
   https://github.com/Qulix/frontend-linter-configs/blob/master/CONTRIBUTING.md
 -->
 
-**xxx-config-xxx**
+# xxx-config-xxx
 
 Checklist:
 - [x] Add `xxxxxx` rule;
 - [x] Add `xxxxxx` rule;
-- [ ] Generate STYLEGUIDE.md;
-- [ ] npm test.
+- [ ] Generate STYLEGUIDE.md.
