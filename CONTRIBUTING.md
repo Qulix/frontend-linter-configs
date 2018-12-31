@@ -1,40 +1,49 @@
 # Contributing Guide
 
 ### Table of contents
- - [Semver](#Semver)
- - [GitHubFlow](#GitHubFlow)
- - [Commit Style](#Commit-Style)
- - [Changelog](#Changelog)
+ - [Getting Started](#Getting-Started)
+ - [Package Structure](#Package-Structure)
+ - [Git and Commit Style](#Git-and-Commit-Style)
  - [Continuous Integration](#Continuous-Integration)
- - [Testing](#Testing)
 
-# Semver
+# Getting Started
 
-Версии пакетов выставляются в соответствии с [semver](https://semver.org/). 
+A repository is a set of packages containing various linter configurations.
 
-# Commit Style
+Each configuration is divided into a set of rules. Each rule has a link to the configuration description in order to make it easier to override the rules in the basic configurations.
 
-Коммиты пишем по [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/). С этой конвенцией, работают большинство библиотек, которые позволяют генерировать CHANGELOG.md и автоматический обновлять версии пакетов.
+Also for each set of rules is written STYLEGUIDE which explains the choice of a particular rule.
 
-# GitHubFlow
+When updating package versions, rules from [semver](https://semver.org/) are used.
 
-Для рабочего процесса ветвления был выбран [GitHubFlow](https://guides.github.com/introduction/flow/).
-Данный тип ветвления, отлично подходит под проекты, где deploy пакетов осуществляется регулярно.
+# Package Structure
 
-Файлы конфигурации шаблонов github находятся в [.github](https://github.com/rhysd/dot-github)
+All our packages must adhere to the following structure:
 
-# Changelog
+```txt
+package/
+  rules/ <- Contains rule declaration
+  tests/ <- Contains test for the rules
+  .npmignore <- Ignore unused files and folders
+  .npmrc <- npm config
+  index.js <- Entry file
+  LICENSE.md <- MIT License
+  STYLEGUIDE.md <- Describes how we write code
+  README.md <- Contains instructions on how to install the package
+  npm-shrinkwrap.json <- Lock down dependency versions for publication
+  package.json <- Defines scripts and package publishing options
+```
 
-После выхода новое версии пакета, должен быть автоматический сгенерирован CHANGELOG.md, с изменениями для пакета, который выходит в релиз.
+# Git and Commit Style
+
+[GitHubFlow](https://guides.github.com/introduction/flow/) was chosen as the approach to branching. This type of branch is great for projects where deploy is performed very often.
+
+Using a single commit structure allows you to build reports for the period between the publication of packages. Because of this, we use the rules from [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/) that allow us to auto-generate CHANGELOGS and automatically release versions of new packages.
 
 # Continuous Integration
 
-В качестве CI был выбран **TravisCI**, из-за возможности построения матриц расширений.
+**TravisCI** was chosen as CI, because of the possibility of constructing extension matrices.
 
-Матрица расширений позволяет производить сборку на различных версиях платформ и переменных окружения, для которых собираются пакеты.
+The extension matrix allows you to build on different versions of the platforms and environment variables for which packages are built.
 
-Релизы доставляются в npm, только на lts версиях node.js
-
-# Testing
-
-Для тестирования используется стандартная библиотека assert в Node.js. На плагины пишутся регрессионные тесты, которые позволяют отследить ошибки в плагинах при изменении версий пакетов.
+Releases are delivered to npm, only on lts versions of node.js
