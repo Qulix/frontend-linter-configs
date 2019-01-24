@@ -1,6 +1,6 @@
 
 module.exports = {
-  exports: [
+  extends: [
     'codelyzer',
     './rules/common',
     './rules/component',
