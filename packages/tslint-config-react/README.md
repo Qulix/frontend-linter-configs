@@ -38,15 +38,15 @@ Once the `tslint-config-react` package is installed, you can use it by specifyin
 
 During migration, you can disable rulesets by overriding them in yours `.tslint` configuration file
 
-> The rule set is stored in `node_modules/@qulix/tslint-config-react/rules`
+> The rule set is stored in `node_modules/@qulix/tslint-config-react/tslint.js`
 
 ```js
   "extends": [
     "@qulix/tslint-config-react"
   ],
   "rules": {
-
-    ]
+    "jsx-no-multiline-js": false,
+    "jsx-no-string-ref": false,
   }
 ```
 
