@@ -1,6 +1,6 @@
 {
   "name": "@qulix/tslint-config-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TypeScript React Style Guide",
   "scripts": {
     "test": "node ./tslint.js"
@@ -18,7 +18,7 @@
     "lint",
     "tslint",
     "typescript",
-    "rx"
+    "react"
   ],
   "author": "Pavel Bely <PBely@qulix.com> (https://twitter.com/R1ZENX)",
   "contributors": [
