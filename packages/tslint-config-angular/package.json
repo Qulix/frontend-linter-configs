@@ -1,6 +1,6 @@
 {
   "name": "@qulix/tslint-config-angular",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "TypeScript Angular Style Guide",
   "scripts": {
     "test": "tslint --config ./tslint.js ./tests/**/*.ts"
@@ -44,6 +44,10 @@
     "codelyzer": "^4.5.0"
   },
   "devDependencies": {
+    "@angular/compiler": "latest",
+    "@angular/core": "latest",
+    "rxjs": "latest",
+    "zone.js": "latest",
     "tslint": "latest",
     "typescript": "latest"
   }

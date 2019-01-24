@@ -1,9 +1,6 @@
 
 module.exports = {
   "rules": {
-    // http://codelyzer.com/rules/pipe-naming/
-    "pipe-naming": [true, "camelCase", "ng"],
-
     // http://codelyzer.com/rules/pipe-prefix/
     "pipe-prefix": [true, "Pipe"],
 
