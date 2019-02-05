@@ -1,6 +1,9 @@
+'use strict';
 
 module.exports = {
   extends: [
+    '@qulix/tslint-config-typescript',
+    '@qulix/tslint-config-rx',
     'codelyzer',
     './rules/common',
     './rules/component',

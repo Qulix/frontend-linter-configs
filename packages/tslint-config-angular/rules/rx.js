@@ -1,9 +1,10 @@
+'use strict';
 
 module.exports = {
-  "rules": {
-    "import-blacklist": [
-      true,
-      "rxjs/Rx"
-    ]
-  }
-}
+  rules: {
+    'import-blacklist': {
+      severity: 'error',
+      options: [true, 'rxjs/Rx']
+    },
+  },
+};
