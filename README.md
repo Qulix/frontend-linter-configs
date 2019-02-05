@@ -30,7 +30,7 @@ We support versions of Node.js from __6.4.0__ and ending with the __latest__ ver
 
 Yep. For each configuration, we write regression tests that allow us to make sure that our styleguide works correctly on different Node.js environments, as well as on different versions of the e.g. packages. ESLint.
 
-### How to install all packages dependencies ?
+### How to install dependencies ?
 
 We use [lerna](https://lernajs.io/) to manage multi-package structure. All dependencies are installed using `lerna bootstrap` on a `postinstall` npm hook.
 
