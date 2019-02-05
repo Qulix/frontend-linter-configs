@@ -1,6 +1,6 @@
 {
   "name": "@qulix/tslint-config-rx",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -11,6 +11,11 @@
       "requires": {
         "esquery": "^1.0.1"
       }
+    },
+    "@qulix/tslint-config-typescript": {
+      "version": "0.4.1",
+      "resolved": "https://registry.npmjs.org/@qulix/tslint-config-typescript/-/tslint-config-typescript-0.4.1.tgz",
+      "integrity": "sha512-JARQck8n52BUkQbzFvhSxmuVO+Ig0iyWrVmnX7JgdxNL+YLE9sHMZl2qzWxzzBM3vyKIJYXBhZ1xt7tZrm3wdQ=="
     },
     "ansi-regex": {
       "version": "2.1.1",
@@ -289,9 +294,9 @@
       }
     },
     "rxjs-tslint-rules": {
-      "version": "4.14.0",
-      "resolved": "https://registry.npmjs.org/rxjs-tslint-rules/-/rxjs-tslint-rules-4.14.0.tgz",
-      "integrity": "sha512-kZUkmA+mVoXWMuw5Jt81JLn01QMZ3lUQ3UcDl5vXZ5i9yh+dnjtZk5gG4yjtZfFASTifNkIUiq/0RtmNRayiyg==",
+      "version": "4.16.2",
+      "resolved": "https://registry.npmjs.org/rxjs-tslint-rules/-/rxjs-tslint-rules-4.16.2.tgz",
+      "integrity": "sha512-yX/rG/aqjIZNTv6Ugq9ST43IV+g2a3JY3YwWTA8Q7VY+jGRhoILLWJbvJlL5gwmeT4HZXybpVGEBsZU4NPx15g==",
       "requires": {
         "@phenomnomnominal/tsquery": "^3.0.0",
         "decamelize": "^2.0.0",
@@ -364,9 +369,9 @@
       }
     },
     "tsutils": {
-      "version": "3.5.2",
-      "resolved": "https://registry.npmjs.org/tsutils/-/tsutils-3.5.2.tgz",
-      "integrity": "sha512-qIlklNuI/1Dzfm+G+kJV5gg3gimZIX5haYtIVQe7qGyKd7eu8T1t1DY6pz4Sc2CGXAj9s1izycctm9Zfl9sRuQ==",
+      "version": "3.8.0",
+      "resolved": "https://registry.npmjs.org/tsutils/-/tsutils-3.8.0.tgz",
+      "integrity": "sha512-XQdPhgcoTbCD8baXC38PQ0vpTZ8T3YrE+vR66YIj/xvDt1//8iAhafpIT/4DmvzzC1QFapEImERu48Pa01dIUA==",
       "requires": {
         "tslib": "^1.8.1"
       }

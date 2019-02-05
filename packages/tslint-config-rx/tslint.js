@@ -1,7 +1,10 @@
 'use strict';
 
 module.exports = {
-  extends: ['rxjs-tslint-rules'],
+  extends: [
+    '@qulix/tslint-config-typescript',
+    'rxjs-tslint-rules',
+  ],
 
   rules: {
     // https://cartant.github.io/rxjs-tslint-rules/

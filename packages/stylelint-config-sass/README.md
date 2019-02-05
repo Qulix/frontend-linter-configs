@@ -1,6 +1,6 @@
 # stylelint-config-scss
 
-> Stylelint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the [Qulix SCSS Style Guide](./STYLEGUIDE.md)
+> Stylelint [shareable config](https://stylelint.io/user-guide/configuration/) for the [Qulix SCSS Style Guide](https://github.com/Qulix/frontend-linter-configs/blob/master/packages/stylelint-config-sass/STYLEGUIDE.md)
 
 ## Installation
 

@@ -1,9 +1,12 @@
 'use strict';
 
 module.exports = {
-  extends: ['tslint-react'],
+  extends: [
+    '@qulix/tslint-config-typescript',
+    'tslint-react',
+  ],
 
-  rule: {
+  rules: {
     // @rules: https://github.com/palantir/tslint-react
     'variable-name': {
       severity: 'off',

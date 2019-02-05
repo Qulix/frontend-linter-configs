@@ -1,9 +1,14 @@
 {
   "name": "@qulix/tslint-config-react",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
+    "@qulix/tslint-config-typescript": {
+      "version": "0.4.1",
+      "resolved": "https://registry.npmjs.org/@qulix/tslint-config-typescript/-/tslint-config-typescript-0.4.1.tgz",
+      "integrity": "sha512-JARQck8n52BUkQbzFvhSxmuVO+Ig0iyWrVmnX7JgdxNL+YLE9sHMZl2qzWxzzBM3vyKIJYXBhZ1xt7tZrm3wdQ=="
+    },
     "ansi-regex": {
       "version": "2.1.1",
       "resolved": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz",

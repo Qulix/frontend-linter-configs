@@ -1,6 +1,6 @@
 # tslint-config-angular
 
-> TSLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the [Qulix Angular Style Guide](./STYLEGUIDE.md)
+> TSLint [shareable config](https://palantir.github.io/tslint/2016/03/31/sharable-configurations-rules.html) for the [Qulix Angular Style Guide](https://github.com/Qulix/frontend-linter-configs/blob/master/packages/tslint-config-angular/STYLEGUIDE.md)
 
 ## Installation
 

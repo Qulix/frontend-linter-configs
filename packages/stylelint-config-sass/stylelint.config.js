@@ -1,10 +1,7 @@
+'use strict';
 
 module.exports = {
-  "plugins": [
-    "stylelint-scss"
-  ],
+  plugins: ['stylelint-scss'],
 
-  extends: [
-    './rules/common',
-  ].map(require.resolve),
-}
+  extends: ['./rules/common'].map(require.resolve),
+};

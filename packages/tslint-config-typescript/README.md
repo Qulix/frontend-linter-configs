@@ -1,6 +1,6 @@
 # tslint-config-typescript
 
-> TSLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the [Qulix TypeScript Style Guide](./STYLEGUIDE.md)
+> TSLint [shareable config](https://palantir.github.io/tslint/2016/03/31/sharable-configurations-rules.html) for the [Qulix TypeScript Style Guide](https://github.com/Qulix/frontend-linter-configs/blob/master/packages/tslint-config-typescript/STYLEGUIDE.md)
 
 
 ## Installation

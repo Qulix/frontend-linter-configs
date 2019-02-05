@@ -1,10 +1,6 @@
 # tslint-config-rx
 
-
-> TSLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the [Qulix Rx Style Guide](./STYLEGUIDE.md)
-
-**This is an independent package but we recommend using it with:**
-  - [@qulix/tslint-config-typescript](https://www.npmjs.com/package/@qulix/tslint-config-typescript)
+> TSLint [shareable config](https://palantir.github.io/tslint/2016/03/31/sharable-configurations-rules.html) for the [Qulix Rx Style Guide](https://github.com/Qulix/frontend-linter-configs/blob/master/packages/tslint-config-rx/STYLEGUIDE.md)
 
 ## Installation
 
@@ -38,7 +34,7 @@ Once the `tslint-config-rx` package is installed, you can use it by specifying `
 
 During migration, you can disable rulesets by overriding them in yours `.tslint` configuration file
 
-> The rule set is stored in `node_modules/@qulix/tslint-config-rx/rules`
+> The rule set is stored in `node_modules/@qulix/tslint-config-rx/tslint.js`
 
 ```js
   "extends": [

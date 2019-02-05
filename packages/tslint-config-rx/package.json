@@ -1,6 +1,6 @@
 {
   "name": "@qulix/tslint-config-rx",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "TypeScript Rx.js Style Guide",
   "scripts": {
     "test": "tslint --config ./tslint.js ./tests/**/*.ts"
@@ -40,6 +40,7 @@
     "access": "public"
   },
   "dependencies": {
+    "@qulix/tslint-config-typescript": "^0.4.1",
     "rxjs-tslint-rules": "^4.16.0"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "@qulix/tslint-config-react",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "TypeScript React Style Guide",
   "scripts": {
     "test": "node ./tslint.js"
@@ -44,6 +44,7 @@
     "typescript": "^3.2.4"
   },
   "dependencies": {
+    "@qulix/tslint-config-typescript": "^0.4.1",
     "tslint-react": "^3.6.0"
   }
 }

@@ -1,10 +1,6 @@
 # tslint-config-react
 
-
-> TSLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the [Qulix React Style Guide](./STYLEGUIDE.md)
-
-**This is an independent package but we recommend using it with:**
-  - [@qulix/tslint-config-typescript](https://www.npmjs.com/package/@qulix/tslint-config-typescript)
+> TSLint [shareable config](https://palantir.github.io/tslint/2016/03/31/sharable-configurations-rules.html) for the [Qulix React Style Guide](https://github.com/Qulix/frontend-linter-configs/blob/master/packages/tslint-config-react/STYLEGUIDE.md)
 
 ## Installation
 

@@ -6,8 +6,6 @@
 
 Elegant linter configuration for better frontend development
 
-> StyleGuide is still in an early development stage and not ready for production :smile:
-
 # Style Guides
 
 - [JavaScript](./packages/eslint-config-javascript/STYLEGUIDE.md)
@@ -15,11 +13,12 @@ Elegant linter configuration for better frontend development
   - [React](./)
 - [TypeScript](./packages/tslint-config-typescript/STYLEGUIDE.md)
   - [Node](./)
-  - [React](./)
-  - [Angular](./)
+  - [React](./packages/tslint-config-react/STYLEGUIDE.md)
+  - [Rx](./packages/tslint-config-rx/STYLEGUIDE.md)
+  - [Angular](./packages/tslint-config-angular/STYLEGUIDE.md)
 - [Styles](./)
-  - [CSS](./)
-  - [SASS](./)
+  - [CSS](./packages/stylelint-config-css/STYLEGUIDE.md)
+  - [SASS](./packages/stylelint-config-scss/STYLEGUIDE.md)
 
 # FAQ
 
