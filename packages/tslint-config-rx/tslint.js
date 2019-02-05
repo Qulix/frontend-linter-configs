@@ -1,38 +1,114 @@
+'use strict';
 
 module.exports = {
-  extends: [
-    "rxjs-tslint-rules"
-  ],
+  extends: ['rxjs-tslint-rules'],
 
   rules: {
     // https://cartant.github.io/rxjs-tslint-rules/
-    "rxjs-add": false,
-    "rxjs-ban-observables": true,
-    "rxjs-ban-operators": true,
-    "rxjs-no-create": true,
-    "rxjs-deep-operators": false,
-    "rxjs-just": true,
-    "rxjs-no-do": true,
-    "rxjs-finnish": true,
-    "rxjs-no-ignored-error": false,
-    "rxjs-no-ignored-notifier": false,
-    "rxjs-no-ignored-replay-buffer": true,
-    "rxjs-no-ignored-subscribe": false,
-    "rxjs-no-internal": true,
-    "rxjs-no-nested-subscribe": true,
-    "rxjs-no-sharereplay": true,
-    "rxjs-no-subject-unsubscribe": true,
-    "rxjs-no-subject-value": false,
-    "rxjs-no-tap": false,
-    "rxjs-no-unbound-methods": true,
-    "rxjs-no-unsafe-catch": true,
-    "rxjs-no-unsafe-first": true,
-    "rxjs-no-unsafe-scope": true,
-    "rxjs-no-unsafe-switchmap": true,
-    "rxjs-no-unsafe-takeuntil": true,
-    "rxjs-prefer-async-pipe": false,
-    "rxjs-prefer-observer": true,
-    "rxjs-throw-error": true,
-  }
-
-}
+    'rxjs-add': {
+      severity: 'off',
+      options: false,
+    },
+    'rxjs-ban-observables': {
+      severity: 'error',
+      options: true,
+    },
+    'rxjs-ban-operators': {
+      severity: 'error',
+      options: true,
+    },
+    'rxjs-no-create': {
+      severity: 'warning',
+      options: true,
+    },
+    'rxjs-just': {
+      severity: 'warning',
+      options: true,
+    },
+    'rxjs-no-do': {
+      severity: 'warning',
+      options: true,
+    },
+    // https://medium.com/@benlesh/observables-and-finnish-notation-df8356ed1c9b
+    'rxjs-finnish': {
+      severity: 'warning',
+      options: true,
+    },
+    'rxjs-no-ignored-error': {
+      severity: 'off',
+      options: false,
+    },
+    'rxjs-no-ignored-notifier': {
+      severity: 'off',
+      options: false,
+    },
+    'rxjs-no-ignored-replay-buffer': {
+      severity: 'warning',
+      options: true,
+    },
+    'rxjs-no-ignored-subscribe': {
+      severity: 'off',
+      options: false,
+    },
+    'rxjs-no-internal': {
+      severity: 'error',
+      options: true,
+    },
+    'rxjs-no-nested-subscribe': {
+      severity: 'error',
+      options: true,
+    },
+    'rxjs-no-sharereplay': {
+      severity: 'error',
+      options: true,
+    },
+    'rxjs-no-subject-unsubscribe': {
+      severity: 'warning',
+      options: true,
+    },
+    'rxjs-no-subject-value': {
+      severity: 'warning',
+      options: true,
+    },
+    'rxjs-no-tap': {
+      severity: 'warning',
+      options: true,
+    },
+    'rxjs-no-unbound-methods': {
+      severity: 'error',
+      options: true,
+    },
+    'rxjs-no-unsafe-catch': {
+      severity: 'warning',
+      options: true,
+    },
+    'rxjs-no-unsafe-first': {
+      severity: 'warning',
+      options: true,
+    },
+    'rxjs-no-unsafe-scope': {
+      severity: 'warning',
+      options: true,
+    },
+    'rxjs-no-unsafe-switchmap': {
+      severity: 'warning',
+      options: true,
+    },
+    'rxjs-no-unsafe-takeuntil': {
+      severity: 'warning',
+      options: true,
+    },
+    'rxjs-prefer-async-pipe': {
+      severity: 'warning',
+      options: true,
+    },
+    'rxjs-prefer-observer': {
+      severity: 'error',
+      options: true,
+    },
+    'rxjs-throw-error': {
+      severity: 'error',
+      options: true,
+    },
+  },
+};
