@@ -1,10 +1,11 @@
+'use strict';
 
 module.exports = {
   extends: [
-    './rules/format-specific.json',
-    './rules/typescript-specific.json',
-    './rules/javascript-specific.json',
-    './rules/class-specific.json',
-    './rules/function-specific.json',
+    './rules/format-specific',
+    './rules/typescript-specific',
+    './rules/javascript-specific',
+    './rules/class-specific',
+    './rules/function-specific',
   ].map(require.resolve),
 };
