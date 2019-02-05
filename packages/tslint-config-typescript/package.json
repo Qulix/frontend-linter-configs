@@ -1,6 +1,6 @@
 {
   "name": "@qulix/tslint-config-typescript",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "TypeScript Style Guide",
   "scripts": {
     "test": "tslint --config ./tslint.js ./tests/**/*.ts"
