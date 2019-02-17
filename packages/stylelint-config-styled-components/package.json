@@ -2,9 +2,6 @@
   "name": "@qulix/stylelint-config-styled-components",
   "version": "0.0.1",
   "description": "Stylelint SCSS Style Guide",
-  "scripts": {
-    "test": "stylelint --config ./stylelint.config.js ./tests/**/*.scss"
-  },
   "engines": {
     "node": ">=6.4.0 <=11",
     "npm": ">=4"
