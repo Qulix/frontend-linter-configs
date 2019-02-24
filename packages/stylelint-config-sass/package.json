@@ -12,9 +12,11 @@
   "main": "stylelint.config.js",
   "files": [
     "rules",
+    "LICENSE",
     "README.md"
   ],
   "keywords": [
+    "qulix",
     "style guide",
     "lint",
     "stylelint",

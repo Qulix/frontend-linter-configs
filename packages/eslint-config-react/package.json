@@ -1,15 +1,12 @@
 {
-  "name": "@qulix/tslint-config-typescript",
-  "version": "0.4.1",
-  "description": "TypeScript Style Guide",
-  "scripts": {
-    "test": "tslint --config ./tslint.js ./tests/**/*.ts"
-  },
+  "name": "@qulix/eslint-config-react",
+  "version": "0.0.1",
+  "description": "React Style Guide",
   "engines": {
     "node": ">=6.4.0 <=11",
     "npm": ">=4"
   },
-  "main": "tslint.js",
+  "main": "eslint.js",
   "files": [
     "rules",
     "LICENSE",
@@ -19,8 +16,13 @@
     "qulix",
     "style guide",
     "lint",
-    "tslint",
-    "typescript"
+    "eslint",
+    "react",
+    "es6",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018"
   ],
   "author": "Pavel Bely <PBely@qulix.com> (https://twitter.com/R1ZENX)",
   "contributors": [
@@ -41,8 +43,13 @@
   "publishConfig": {
     "access": "public"
   },
+  "dependencies": {
+    "@qulix/eslint-config-javascript": "0.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^4.x.x | ^5.x.x"
+  },
   "devDependencies": {
-    "tslint": "latest",
-    "typescript": "latest"
+    "eslint": "^5.9.0"
   }
 }

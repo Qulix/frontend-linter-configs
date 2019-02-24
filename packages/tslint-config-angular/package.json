@@ -12,9 +12,11 @@
   "main": "tslint.js",
   "files": [
     "rules",
+    "LICENSE",
     "README.md"
   ],
   "keywords": [
+    "qulix",
     "style guide",
     "lint",
     "tslint",
